@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABHISHEK BARETH</title>
+<link rel="stylesheet"href="style.css">
+<script src="https://kit.fontawesome.com/4eb02c4056.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main">
+    
+        <nav>
+           
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">RESUME</a></li>
+                <li><a href="">DREAMS</a></li>
+                <li><a href="">SUGGESSTION</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+        </div>
+    <div class="text-box">
+        <h1> ABHISHEK BARETH</h1>
+        <P> LiVinG tHe Life iN mY OWN waY</P>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/abhishekkarsh257/" target="_blank">
+                <i class="fa fa-2x fa-instagram"></i>
+            </a>
+    
+            <a href="https://www.facebook.com/abhishek.karsh.98" target="_blank">
+                <i class="fa fa-2x fa-facebook"></i>
+            </a>
+        </div>
+       </div>
+       
+       </div>
+       <script>
+           var navlinks =document.getElementById("navlinks");
+
+           function showmenu(){
+               navlinks.style.right="0";
+           }
+           function hidemenu(){
+               navlinks.style.right="-200px"
+           }
+       </script>
+       
+</body>
+</html>
